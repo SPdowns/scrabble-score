@@ -10,10 +10,20 @@ namespace ScrabbleScore.Tests
     public void GetScore_ReturnsLetterScore_Score()
     {
   // any necessary logic to prep for test; instantiating new classes, etc.
-    string letter = "a";
+    char letter = 'a';
     int result = Scrabble.GetScore(letter);
 
     Assert.AreEqual(result, 1);
     }
+
+    [TestMethod]
+    public void AddScore_AddsValueToScore_Score()
+    {
+      string word = "snow";
+      int result = Scrabble.AddScore(word);
+
+      Assert.AreEqual(result, 8);
+    }
+
   }
 }
