@@ -1,16 +1,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using ScrabbleScore.Models;
 
 namespace ScrabbleScore.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ScrabbleTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void GetScore_ReturnsLetterScore_Score()
     {
   // any necessary logic to prep for test; instantiating new classes, etc.
-    Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+    string letter = "a";
+    int result = Scrabble.GetScore(letter);
+
+    Assert.AreEqual(result, 1);
     }
   }
 }

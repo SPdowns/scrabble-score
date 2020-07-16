@@ -1,6 +1,6 @@
-namespace ProjectName
+namespace ScrabbleScore.Models
 {
-  public class ClassName
+  public static class Scrabble
   {
     // properties, constructors, methods, etc. go here
     
