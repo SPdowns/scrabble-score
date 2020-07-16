@@ -1,8 +1,8 @@
-# Title
+# Scrabble Score
 
 #### Latest version date
 
-#### By Deryck Jackson
+#### By Deryck Jackson, Spencer Moody, Sean Downs
 
 ## Description
 
@@ -10,13 +10,13 @@
 
 ## Specifications
 
-1. **Behavior:** The user will be able to input a letter in the console and the return will be a numerical value associated with the letter 
+1. **Behavior:** The user will be able to input a word in the console and the return will be a numerical value associated with each letter in that word.
     * **Input Example:** A
     * **Output Example:** 1
 
-2. **Behavior:** Program
-    * **Input Example:**
-    * **Output Example:**
+2. **Behavior:** The program will add the score for each letter to the total score and return it to the user.
+    * **Input Example:** "hello"
+    * **Output Example:** 8
 
 3. **Behavior:** Program
     * **Input Example:**

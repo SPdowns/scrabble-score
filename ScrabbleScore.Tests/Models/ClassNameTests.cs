@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ProjectName;
 
-namespace ProjectName.Tests
+namespace ScrabbleScore.Tests
 {
   [TestClass]
   public class ClassNameTests
