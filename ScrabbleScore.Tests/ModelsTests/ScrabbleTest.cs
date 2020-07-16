@@ -22,7 +22,7 @@ namespace ScrabbleScore.Tests
       string word = "snow";
       int result = Scrabble.AddScore(word);
 
-      Assert.AreEqual(result, 8);
+      Assert.AreEqual(result, 7);
     }
 
   }
