@@ -13,7 +13,7 @@ namespace ScrabbleScore.Models
   {
     if (_letterScore.ContainsKey(letter))
     {
-      return 0;
+      return _letterScore[letter];
     }
     else
     {
